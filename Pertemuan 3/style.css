@@ -1,0 +1,28 @@
+h1{
+    text-align: center;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    background-color: grey;
+}
+.container{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: black;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px white;
+}
+.card-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.card{
+    border: 1px solid black;
+    flex: 1;
+}
+.harga{
+    font-weight: bold;
+}
